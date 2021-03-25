@@ -25,7 +25,9 @@ function App() {
   
   return (
     <div className="App">
-      <div className="calc-wrapper">
+      <div className="calc-wrapper">      
+      <h1 className="header">Calculator</h1>
+
         <Input input={newState.input}></Input>
         <div className="row">
           <Button handleClick={addToInput}>7</Button>
