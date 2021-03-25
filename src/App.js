@@ -8,6 +8,9 @@ import {useState} from 'react'
 import {
   atan2, chain, derivative, e, evaluate, log, pi, pow, round, sqrt
 } from 'mathjs'
+
+import LogRocket from 'logrocket';
+LogRocket.init('1nx37x/calculator-app');
 function App() {
   
 
